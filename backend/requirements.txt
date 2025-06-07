@@ -1,0 +1,9 @@
+
+fastapi
+uvicorn
+python-docx
+pdfminer.six
+openai
+python-multipart
+pydantic
+aiofiles

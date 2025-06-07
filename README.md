@@ -14,18 +14,31 @@ This is an AI-powered resume analyzer web app that compares a resume (uploaded a
 📁 Project Structure
 
 ai_resume_analyzer_project/
+
 ├── backend/
+
 │   ├── main.py                 # FastAPI backend entry point
+
 │   ├── utils.py                # Resume/JD processing logic
+
 │   ├── requirements.txt        # Python dependencies
+
 │   └── .env                    # (not included) contains OPENAI_API_KEY
+
 ├── frontend/
+
 │   ├── public/
+
 │   ├── src/
+
 │   │   ├── App.js              # Main React component
+
 │   │   ├── index.js            # Entry point for React
+
 │   │   └── index.css           # Custom styling
+
 │   ├── package.json            # React app dependencies
+
 │   └── README.md
 
 
@@ -47,31 +60,37 @@ CSS
 
 
 🚀 How to Run
+
 🔧 1. Backend Setup
 
 cd resume_and_JD_analyzer_project/backend
+
 python -m venv venv
+
 source venv/bin/activate  # or venv\Scripts\activate on Windows
+
 pip install -r requirements.txt
 
-
 Create a .env file like this:
+
+
 OPENAI_API_KEY=your_openai_key_here
 
 Start the backend server:
+
 uvicorn main:app --reload --port 8000
 
 
 🎨 2. Frontend Setup 
 
 cd resume_and_JD_analyzer_project/frontend
+
 npm install
+
 npm start
 
 Runs the app at http://localhost:3000
 
-
-alignment
 
 📌 Sample Output:-
 

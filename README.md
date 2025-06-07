@@ -1,4 +1,8 @@
 Resume and Job Description Analyzer
+
+
+
+
 This is an AI-powered resume analyzer web app that compares a resume (uploaded as PDF/DOCX or pasted text) with a job description (JD) and generates:
 
 ✅ ATS Match Score
